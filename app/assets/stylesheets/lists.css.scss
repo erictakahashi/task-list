@@ -1,0 +1,145 @@
+// Place all the styles related to the Lists controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+	background-color: #c5c5c4;
+}
+
+h1 {
+	text-align: center;
+	font-size: 60px;
+	font-height: 20px;
+	font-family: Arial;
+	color: #666;
+	text-shadow: 0px 2px 1px #bbbaba;
+}
+
+.todoList {
+	width: 500px;
+	margin: auto;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+tr, td {
+	border-collapse:collapse;
+}
+
+.noteSupBar {
+	width: 500px;
+	height: 15px;
+	background-color: #663333;
+}
+
+.inputCellEmpty {
+	width: 50px;
+	height: 52px;
+	background-color: #eeeeee;
+	border-bottom: 1px dotted gray;
+	border-right: 1px double #ff3333;
+}
+.inputLine {
+	font-family: Arial;
+	width: 450px;
+	height: 52px;
+	background-color: #eeeeee;
+	border-bottom: 1px dotted gray;
+	text-align: left;
+	vertical-align: middle;
+}
+#field320 {
+	display: inline-block;
+	width: 300px;
+	height: 50px;
+	background-color: #eeeeee;
+	border: none;
+	padding: none;
+	margin-left: 20px;
+	float: left;
+}
+#field320 input {
+	display: inline-block;
+	width: 390px;
+	height: 50px;
+	border: none;
+	background-color: #eeeeee;
+	font-family: Arial;
+	font-size: 20px;
+	font-style: italic;
+	color: #aaaaaa;
+	outline: none;
+}
+#field320 input:focus {
+    outline: none;
+}
+#actions320 {
+	display: inline-nlock;
+	float: right;
+	margin-top: 14px;
+	border: none;
+}
+#actions320 input {
+	border: none;
+	cursor: pointer;
+	font-size: 13px;
+	color: #eeeeee;
+}
+
+.cellEmpty{
+	width: 50px;
+	height: 52px;
+	background-color: white;
+	border-bottom: 1px dotted gray;
+	border-right: 1px double #ff3333;
+}
+.cellContent{
+	font-family: Arial;
+	width: 400px;
+	height: 52px;
+	background-color: white;
+	border-bottom: 1px dotted gray;
+	text-align: left;
+	vertical-align: middle;
+}
+.cellContent p {
+	margin-left: 20px;
+	font-family: Arial;
+	font-size: 20px;
+	color: #333333;
+	line-height: 10px;
+	display: inline-block;
+}
+.cellDelete{
+	font-family: Arial;
+	height: 52px;
+	background-color: white;
+	border-bottom: 1px dotted gray;
+}
+.cellDelete a:link {
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	color: #663333;
+	border: none;
+}
+
+.lastCell {
+	background-color: #c5c5c4;
+}
+.lastLine {
+	width: 495px;
+	height: 25px;
+	background-color: #eeeeee;
+	margin: auto;
+	text-align: left;
+	vertical-align: middle;
+}
+.lastLine p {
+	margin: 0 0 0 5px;
+	font-family: Arial;
+	font-size: 13px;
+	color: #666666;
+	line-height: 5px;
+	display: inline-block;
+}
